@@ -16,15 +16,6 @@ body {
 
 }
 
-.content-section {
-  box-sizing: border-box;
-  max-width: 1440px;
-  min-height: 100px;
-  margin: auto;
-  background-color: #FFF;
-  
-}
-
 h1,
 h2,
 h3,

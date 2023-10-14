@@ -4,7 +4,7 @@
     max-width: 1440px;
     margin: auto;
     background-color: #FFF;  
-  }
+}
 
 /*-----------------Header---------------------------*/
 .header {
@@ -37,7 +37,8 @@
     display: flex;
     flex-direction: initial;
     gap: 32px;
-    list-style-type: circle;
+    list-style-type: none;
+
 }
 
 .header__menu-link {
@@ -48,14 +49,19 @@
     text-underline-position: under;
     text-decoration-thickness: 1px;
     white-space: nowrap;
+    display: list-item;
+    list-style-type: circle;
+
 }
 
-.header_menu-item_active {
+.header_menu-link_active {
     text-decoration: none;
+    list-style-type: none;
 }
 
-.header_menu-item_active {
-    list-style-type: none;
+.header__menu-link:hover {
+    background: rgb(201, 201, 201,0.3);
+    border-radius: 50px;
 }
 
 /*---------Address----------*/
@@ -190,6 +196,10 @@
     background-color: transparent;
 }
 
+.bet-button:hover {
+    background: rgb(201, 201, 201,0.3);
+}
+
 /*-----------------Lots---------------------------*/
 .lots {
     padding: 180px 50px 0px 50px;
@@ -244,6 +254,10 @@
     text-decoration: none;
     display: block;
     height: 100%;
+}
+
+.card-link :hover {
+   opacity: 0.5;
 }
 
 .card {
@@ -379,6 +393,11 @@
     display: block;
 }
 
+.footer__menu-link:hover {
+    background: rgb(201, 201, 201,0.3);
+    border-radius: 50px;
+}
+
 /*----Social-list-----*/
 
 .footer__social-list {
@@ -394,4 +413,9 @@
 
 .footer__social-icon {
     height: 48px;
+}
+
+.footer__social-link:hover {
+    background: rgb(201, 201, 201,0.3);
+    border-radius: 150px;
 }
